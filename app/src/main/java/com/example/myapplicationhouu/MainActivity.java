@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
     // 设置按钮点击后的监听
     class Click implements View.OnClickListener {
         @RequiresApi(api = Build.VERSION_CODES.N)
+
         @SuppressLint("NonConstantResourceId")
         public void onClick(View v) {
             if (v.getId() == R.id.btn_0) {
